@@ -1,5 +1,10 @@
-streamlit==1.41.1
-pandas==2.2.3
-numpy==1.26.4
-scipy==1.14.1
-scikit-learn==1.5.2
+streamlit==1.41.1; python_version < '3.14'
+pandas==2.2.3; python_version < '3.14'
+numpy==1.26.4; python_version < '3.14'
+scipy==1.14.1; python_version < '3.14'
+scikit-learn==1.5.2; python_version < '3.14'
+streamlit==1.66.1; python_version >= '3.14'
+pandas==2.3.3; python_version >= '3.14'
+numpy==2.3.5; python_version >= '3.14'
+scipy==1.16.3; python_version >= '3.14'
+scikit-learn==1.9.1; python_version >= '3.14'
